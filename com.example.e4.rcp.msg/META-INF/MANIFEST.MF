@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Msg
+Bundle-SymbolicName: com.example.e4.rcp.msg;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EXAMPLE
+Automatic-Module-Name: com.exampel.e4.rcp.msg
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
