@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_FILKcH1YEeiS5vVnfVH36A" elementId="com.example.e4.rcp.msg.application">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_JKH88H1YEeiS5vVnfVH36A" elementId="com.example.e4.rcp.msg.trimmedwindow.taskmanager" label="TaskManager" width="400" height="200"/>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_JKH88H1YEeiS5vVnfVH36A" elementId="com.example.e4.rcp.msg.trimmedwindow.taskmanager" label="TaskManager" width="400" height="200">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_P4z_QH4YEeiAKeii2YB1jw" elementId="com.example.e4.rcp.msg.partsashcontainer.main" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_T_4iUH4YEeiAKeii2YB1jw" elementId="com.example.e4.rcp.msg.partstack.0">
+        <children xsi:type="basic:Part" xmi:id="_jaOwcH4YEeiAKeii2YB1jw" elementId="com.example.e4.rcp.msg.part.overview" contributionURI="bundleclass://com.example.e4.rcp.msg/com.example.e4.rcp.msg.parts.MsgOverviewPart" label="Overview"/>
+      </children>
+      <children xsi:type="basic:PartSashContainer" xmi:id="_YmxN4H4YEeiAKeii2YB1jw" elementId="com.example.e4.rcp.msg.partsashcontainer.0">
+        <children xsi:type="basic:PartStack" xmi:id="_ZKbUkH4YEeiAKeii2YB1jw" elementId="com.example.e4.rcp.msg.partstack.1">
+          <children xsi:type="basic:Part" xmi:id="_j4sOEH4YEeiAKeii2YB1jw" elementId="com.example.e4.rcp.msg.part.details" contributionURI="bundleclass://com.example.e4.rcp.msg/com.example.e4.rcp.msg.parts.MsgDetailsPart" label="Details"/>
+        </children>
+        <children xsi:type="basic:PartStack" xmi:id="_ZpYhcH4YEeiAKeii2YB1jw" elementId="com.example.e4.rcp.msg.partstack.2">
+          <children xsi:type="basic:Part" xmi:id="_ka2f8H4YEeiAKeii2YB1jw" elementId="com.example.e4.rcp.msg.part.playground" contributionURI="bundleclass://com.example.e4.rcp.msg/com.example.e4.rcp.msg.parts.PlaygroundPart" label="Playground"/>
+        </children>
+      </children>
+    </children>
+  </children>
   <addons xmi:id="_FILKcX1YEeiS5vVnfVH36A" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_FILKcn1YEeiS5vVnfVH36A" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_FILKc31YEeiS5vVnfVH36A" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

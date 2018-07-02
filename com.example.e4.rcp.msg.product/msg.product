@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="msg" uid="msg" id="com.example.e4.rcp.msg.product" application="osgi.equinox.app.HelloApp" useFeatures="false" includeLaunchers="true">
-
+<product name="msg" uid="msg" id="com.example.e4.rcp.msg.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -16,17 +15,14 @@
 
    <windowImages/>
 
-
    <launcher name="ash">
       <win useIco="false">
          <bmp/>
       </win>
    </launcher>
 
-
    <vm>
    </vm>
-
 
    <plugins>
       <plugin id="org.apache.felix.gogo.command"/>
